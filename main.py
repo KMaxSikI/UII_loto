@@ -3,7 +3,7 @@ from translate import Translator
 
 
 class Card:
-    def __init__(self, name):  # Инициализируем класс с параметром Имя игрока
+    def __init__(self, name):  # Инициализируем класс с параметром Имя игрока////
         self.name = name  # Установка имени игрока в свойство name
         self.card = self.generate_card()  # Вызов метода генерации карты и сохранение её в свойство card
 
